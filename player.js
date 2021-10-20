@@ -10,6 +10,7 @@ class Player{
         this.name;
         this.type;
         this.gestures = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
+        this.score = 0;
     }
     
     

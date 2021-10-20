@@ -5,11 +5,10 @@ const {Player} = require("./Player");
 
 
 class Human extends Player{
-    constructor(name, type, gestures){
+    constructor(name, type){
         super(name, type, gestures);
-        this.name = Human1;
+        this.name;
         this.type = Human;
-        this.gestures;
     }
 
     pickGesture(gestures){
@@ -33,4 +32,11 @@ class Human extends Player{
         }
         return pickGesture;
     }
+}
+
+
+
+
+module.exports = {
+    Human: Human
 }
