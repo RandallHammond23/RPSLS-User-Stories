@@ -9,8 +9,10 @@ class Player{
     constructor(name,type, gestures){
         this.name;
         this.type;
-        this.gestures = [];
+        this.gestures = ["Rock", "Paper", "Scissors", "Lizard", "Spock"];
     }
+    
+    
 }
 
 

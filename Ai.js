@@ -10,6 +10,10 @@ class Ai extends Player{
         super(name, type, gestures);
         this.name = Ai1;
         this.type = Ai
-        this.gestures = [];
+        this.gestures;
+    }
+    randomGestures(gestures){
+        let randomGestures = Math.floor(Math.random(gestures) * this.gestures);
+        return randomGestures
     }
 }
